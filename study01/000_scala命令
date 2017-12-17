@@ -1,3 +1,4 @@
 scalac Person.scala  //编译
 javap -private Person //查看生成的类定义
 scala -Dscala.time Hello Fred //运行Hello,参数为Fred,退出时显示逝去的时间
+-Xcheckinit 编译器标志来调试构造顺序的问题,这个标志会生成相应的代码，以便在有为初始化的字段被访问时，抛出异常
