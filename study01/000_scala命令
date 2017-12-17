@@ -1,0 +1,3 @@
+scalac Person.scala  //编译
+javap -private Person //查看生成的类定义
+scala -Dscala.time Hello Fred //运行Hello,参数为Fred,退出时显示逝去的时间

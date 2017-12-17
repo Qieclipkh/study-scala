@@ -1,11 +1,9 @@
 /**
   * @author changleying
-  * @date 2017/12/15
   */
-object Hello {
-  def main(args: Array[String]): Unit = {
+object Hello3 extends App {
+  if (args.length > 0)
+    println("Hello" + args(0))
+  else
     println("Hello World!")
-    var ff = "asda"
-    println("hello".intersect("world"))
-  }
 }
